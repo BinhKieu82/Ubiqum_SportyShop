@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--  -->
+<html lang="vi-VN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Sporty Shop</title>  
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+</head>
+<body class="container-fluid">
+  <h1>Sport Store</h1>
+  <div class="d-flex exa">
+    <input id="myInput" onchange="filterList()" class="flex-grow-1" type="text" placeholder="Search for product.." />       
+    <button id="checkout" onclick="checkout()">Checkout</button>
+    <span id="state" class="flex-grow-1"></span>
+  </div>
+  <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Product name</th>
+          <th scope="col">Quality</th>
+          <th scope="col">Price($)</th>
+          <th scope="col">Add to Cart</th>
+          <th scope="col">Remove</th>
+        </tr>
+      </thead>
+      <tbody id="productList">
+        
+      </tbody>
+  </table>
+  <script src="./script.js"></script>
+  <div id="footer">&copy;2020 <b>Ubiqum MERN </b>All Rights Reserved.</div>
+</body>
+</html>

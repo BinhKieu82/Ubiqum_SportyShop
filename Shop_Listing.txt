@@ -1,0 +1,5 @@
+You need to create like a shop, so using javascript you need to add products into an array and also remove them from that array.
+The user can know how many products are in the array and see them.
+Also you need to create another array always of the same length of the first one with the price of the products. Then you need to calculate the total prize you need to pay taking into account:
+*Discount 10%: If more than 5 products not counting the free one if there is one or more.
+And to finish, you need to create a website that shows the products in the products array, and also create a filter (so if you start typing bi, bikes should appear because they start with "bi").
